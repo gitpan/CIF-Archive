@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/CIF-Archive.t
+lib/CIF/Archive.pm
+META.yml                                 Module meta-data (added by MakeMaker)
