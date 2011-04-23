@@ -1,21 +1,29 @@
---- #YAML:1.0
-name:               CIF-Archive
-version:            0.00_01
-abstract:           ~
+---
+abstract: 'Perl extension for interfacing with the CIF Archive.'
 author:
-    - Wes Young <wes@>
-license:            unknown
-distribution_type:  module
-configure_requires:
-    ExtUtils::MakeMaker:  0
-build_requires:
-    ExtUtils::MakeMaker:  0
-requires:  {}
-no_index:
-    directory:
-        - t
-        - inc
-generated_by:       ExtUtils::MakeMaker version 6.50
+  - 'Wes Young, <wes@barely3am.com>'
+distribution_type: module
+generated_by: 'Module::Install version 0.76'
+license: perl
 meta-spec:
-    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
-    version:  1.4
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CIF-Archive
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Class::DBI: 3.0.17
+  Compress::Zlib: 2.008
+  Config::Simple: 4.59
+  DateTime::Format::DateParse: 0.04
+  Digest::SHA1: 2.10
+  JSON: 2.07
+  MIME::Base64: 3.06
+  Module::Pluggable: 3.6
+  OSSP::uuid: 1.0501
+  perl: 5.8.0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01_01
